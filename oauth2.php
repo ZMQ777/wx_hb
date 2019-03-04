@@ -1,8 +1,8 @@
 <?php
 class Wxapi {
-    private $app_id = '';
-    private $app_mchid = '';
-    private $parinerkey ='';
+    private $app_id = ''; //appid
+    private $app_mchid = '';//商户号
+    private $parinerkey ='';//商户支付密匙
     function __construct(){
     //do sth here....
     }
